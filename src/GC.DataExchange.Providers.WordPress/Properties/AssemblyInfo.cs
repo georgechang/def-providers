@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GC.DataExchange.Providers.Rss")]
+[assembly: AssemblyTitle("GC.DataExchange.Providers.WordPress")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GC.DataExchange.Providers.Rss")]
+[assembly: AssemblyProduct("GC.DataExchange.Providers.WordPress")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b7f0681c-a96c-4514-a2aa-2d6199be9b9e")]
+[assembly: Guid("8edde4c3-e162-4456-a447-ca817440270a")]
 
 // Version information for an assembly consists of the following four values:
 //
