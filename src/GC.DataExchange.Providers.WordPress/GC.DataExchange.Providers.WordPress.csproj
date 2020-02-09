@@ -67,27 +67,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Posts\PostValueAccessorConverter.cs" />
-    <Compile Include="Authors\ReadAuthorsStepConverter.cs" />
-    <Compile Include="Authors\ReadAuthorsStepProcessor.cs" />
-    <Compile Include="Categories\ReadCategoriesStepConverter.cs" />
-    <Compile Include="Categories\ReadCategoriesStepProcessor.cs" />
+    <Compile Include="Pipelines\ReadWordPressApiSettings.cs" />
+    <Compile Include="Pipelines\ReadWordPressApiStepConverter.cs" />
+    <Compile Include="Pipelines\ReadWordPressApiStepProcessor.cs" />
+    <Compile Include="ValueAccessors\JsonValueAccessorConverter.cs" />
     <Compile Include="Endpoint\WordPressEndpointConverter.cs" />
     <Compile Include="Endpoint\WordPressSettings.cs" />
-    <Compile Include="Models\Author.cs" />
-    <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Post.cs" />
-    <Compile Include="Models\Tag.cs" />
-    <Compile Include="Posts\ReadPostsStepConverter.cs" />
-    <Compile Include="Posts\ReadPostsStepProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tags\ReadTagsStepConverter.cs" />
-    <Compile Include="Tags\ReadTagsStepProcessor.cs" />
+    <Compile Include="Readers\JsonValueReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Sitecore.DataExchange">
       <Version>4.0.0</Version>
     </PackageReference>
