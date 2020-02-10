@@ -7,8 +7,8 @@
     <ProjectGuid>{8EDDE4C3-E162-4456-A447-CA817440270A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GC.DataExchange.Providers.WordPress</RootNamespace>
-    <AssemblyName>GC.DataExchange.Providers.WordPress</AssemblyName>
+    <RootNamespace>GC.DataExchange.Providers.Json</RootNamespace>
+    <AssemblyName>GC.DataExchange.Providers.Json</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -67,12 +67,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pipelines\ReadWordPressApiSettings.cs" />
-    <Compile Include="Pipelines\ReadWordPressApiStepConverter.cs" />
-    <Compile Include="Pipelines\ReadWordPressApiStepProcessor.cs" />
+    <Compile Include="Pipelines\ReadPaginatedJsonApiStepSettings.cs" />
+    <Compile Include="Pipelines\ReadPaginatedJsonApiStepConverter.cs" />
+    <Compile Include="Pipelines\ReadPaginatedJsonApiStepProcessor.cs" />
+    <Compile Include="Pipelines\ReadJsonApiStepSettings.cs" />
+    <Compile Include="Readers\SitecoreGeneralLinkValueReader.cs" />
+    <Compile Include="ValueAccessors\SitecoreGeneralLinkValueReaderConverter.cs" />
     <Compile Include="ValueAccessors\JsonValueAccessorConverter.cs" />
-    <Compile Include="Endpoint\WordPressEndpointConverter.cs" />
-    <Compile Include="Endpoint\WordPressSettings.cs" />
+    <Compile Include="Endpoint\JsonApiEndpointConverter.cs" />
+    <Compile Include="Endpoint\JsonApiSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Readers\JsonValueReader.cs" />
   </ItemGroup>

@@ -1,11 +1,11 @@
-﻿using GC.DataExchange.Providers.WordPress.Readers;
+﻿using GC.DataExchange.Providers.Json.Readers;
 using Sitecore.DataExchange.Attributes;
 using Sitecore.DataExchange.Converters.DataAccess.ValueAccessors;
 using Sitecore.DataExchange.DataAccess;
 using Sitecore.DataExchange.Repositories;
 using Sitecore.Services.Core.Model;
 
-namespace GC.DataExchange.Providers.WordPress.ValueAccessors
+namespace GC.DataExchange.Providers.Json.ValueAccessors
 {
     [SupportedIds(JsonValueAccessorTemplateId)]
     public class JsonValueAccessorConverter : ValueAccessorConverter
@@ -23,11 +23,6 @@ namespace GC.DataExchange.Providers.WordPress.ValueAccessors
             var name = this.GetStringValue(source, "Property");
             reader = new JsonValueReader(name);
             return reader;
-        }
-
-        protected override IValueWriter GetValueWriter(ItemModel source)
-        {
-            return base.GetValueWriter(source);
         }
     }
 }

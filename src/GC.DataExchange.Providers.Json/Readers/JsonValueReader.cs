@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Linq;
+using System.Web;
 using Newtonsoft.Json.Linq;
 using Sitecore.DataExchange.DataAccess;
 
-namespace GC.DataExchange.Providers.WordPress.Readers
+namespace GC.DataExchange.Providers.Json.Readers
 {
     public class JsonValueReader : IValueReader
     {
@@ -20,8 +21,7 @@ namespace GC.DataExchange.Providers.WordPress.Readers
         {
             var readResult = new ReadResult(DateTime.UtcNow)
             {
-                WasValueRead = false,
-                ReadValue = null
+                WasValueRead = false
             };
 
             if (!(source is JObject jsonObject)) return readResult;
@@ -30,7 +30,7 @@ namespace GC.DataExchange.Providers.WordPress.Readers
             if (property == null) return readResult;
 
             readResult.WasValueRead = true;
-            readResult.ReadValue = property.Value;
+            readResult.ReadValue = HttpUtility.HtmlDecode((string)property.Value);
             return readResult;
         }
     }
