@@ -17,8 +17,8 @@ using Sitecore.Services.Core.Diagnostics;
 namespace GC.DataExchange.Providers.Json.Pipelines
 {
     [RequiredEndpointPlugins(typeof(JsonApiSettings))]
-    [RequiredPipelineStepPlugins(typeof(ReadJsonApiStepSettings))]
-    public class ReadPaginatedJsonApiApiStepProcessor : BaseReadDataStepProcessor
+    [RequiredPipelineStepPlugins((typeof(ReadPaginatedJsonApiStepSettings)))]
+    public class ReadPaginatedJsonApiStepProcessor : BaseReadDataStepProcessor
     {
         private static readonly HttpClient Client = new HttpClient();
 
@@ -49,20 +49,20 @@ namespace GC.DataExchange.Providers.Json.Pipelines
                 logger.Error($"No API URL is specified on the endpoint. (pipeline step: { pipelineStep.Name }, endpoint: { endpoint.Name }");
             }
 
-            var pipelineStepSettings = pipelineStep.GetPlugin<ReadJsonApiStepSettings>();
+            var pipelineStepSettings = pipelineStep.GetPlugin<ReadPaginatedJsonApiStepSettings>();
             if (pipelineStepSettings == null) return;
 
             var uri = new UriBuilder(endpointSettings.ApiUrl);
             var query = HttpUtility.ParseQueryString(uri.Query);
-            query["per_page"] = "100";
+            query["per_page"] = pipelineStepSettings.ResultsPerPage.ToString();
             uri.Query = query.ToString();
 
             var data = new List<JObject>();
             logger.Debug($"Executing API call { uri.Uri.AbsoluteUri }. ");
             var batch = GetDataAsync(uri.Uri.AbsoluteUri).GetAwaiter().GetResult().ToList();
-            var page = 1;
+            var page = pipelineStepSettings.Page;
 
-            while (batch.Any() || data.Count() > pipelineStepSettings.MaxCount)
+            while (batch.Any())
             {
                 data.AddRange(batch);
                 page++;

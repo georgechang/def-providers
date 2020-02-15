@@ -1,0 +1,23 @@
+﻿---
+ID: "6090fdbe-e7bb-454a-9025-8416f2dc3bae"
+Parent: "7c958233-3458-46b2-be59-8a47271a0289"
+Template: "00dca38d-89ac-42c4-9e24-fe19eb81bc36"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Value Mapping Sets
+DB: master
+BranchID: "0d21226f-7b04-4ff2-9230-b55245cf6fe7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6090FDBE-E7BB-454A-9025-8416F2DC3BAE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T162622Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

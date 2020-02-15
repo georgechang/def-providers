@@ -1,0 +1,18 @@
+﻿---
+ID: "d237cbf1-f353-4cc6-b79e-0ed289643093"
+Parent: "d60322a5-ab63-43f3-b685-3c932604a855"
+Template: "d60322a5-ab63-43f3-b685-3c932604a855"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Folders/JSON Value Writers Root/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T162438Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

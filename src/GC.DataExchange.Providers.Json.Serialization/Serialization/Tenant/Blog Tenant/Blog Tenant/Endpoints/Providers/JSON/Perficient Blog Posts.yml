@@ -1,0 +1,18 @@
+﻿---
+ID: "4a71f341-a308-435a-a6e8-7d1b7aabffde"
+Parent: "d8cc9a78-30ea-48b4-92a5-63c3d13435bb"
+Template: "4fa3cc53-44da-47c9-bb39-9fc5b33c23e8"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Endpoints/Providers/JSON/Perficient Blog Posts
+DB: master
+SharedFields:
+- ID: "c10acd2a-63df-45d2-adaa-2ba01b3b7aa9"
+  Hint: API URL
+  Value: "https://blogs.perficient.com/wp-json/wp/v2/posts"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T040555Z

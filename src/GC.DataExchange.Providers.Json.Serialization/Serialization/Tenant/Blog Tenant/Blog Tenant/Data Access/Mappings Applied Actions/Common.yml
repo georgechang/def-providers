@@ -1,0 +1,23 @@
+﻿---
+ID: "b1112628-0dc6-4d4a-9d65-b30ba8f022b6"
+Parent: "3778b558-33af-47fd-bfbc-c06e593ec633"
+Template: "8f71af0c-e46e-4406-9f78-1bea4211bd13"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Mappings Applied Actions/Common
+DB: master
+BranchID: "0d21226f-7b04-4ff2-9230-b55245cf6fe7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B1112628-0DC6-4D4A-9D65-B30BA8F022B6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T162621Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

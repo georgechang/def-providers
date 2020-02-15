@@ -1,0 +1,18 @@
+﻿---
+ID: "0d270fc8-d476-460d-bd7c-475dee55ef2c"
+Parent: "d862e71c-101c-4f9f-90ec-ab76f93f80e3"
+Template: "394181ef-d5dc-48a1-9be6-729f47bc76ec"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Accessors/Providers/JSON
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T162649Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,23 @@
+﻿---
+ID: "546ab044-6302-4aa7-aadf-3e3355a00682"
+Parent: "7c958233-3458-46b2-be59-8a47271a0289"
+Template: "b7e30777-e37b-4712-a9f8-763d48843c87"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipelines
+DB: master
+BranchID: "0d21226f-7b04-4ff2-9230-b55245cf6fe7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{546AB044-6302-4AA7-AADF-3E3355A00682}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T162622Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

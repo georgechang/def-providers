@@ -1,0 +1,14 @@
+﻿---
+ID: "0fcac432-d1e3-4658-b27b-465f5007ae0b"
+Parent: "b6321e01-c334-43e4-887e-5859df4a28f8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Accessors/JSON Value Accessor/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T185907Z

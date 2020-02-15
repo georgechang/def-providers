@@ -1,0 +1,14 @@
+﻿---
+ID: "3d82dd76-d1ad-4618-8005-28020d65f64d"
+Parent: "4fa3cc53-44da-47c9-bb39-9fc5b33c23e8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Endpoints/JSON Endpoint/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T184707Z

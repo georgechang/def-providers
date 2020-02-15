@@ -1,0 +1,46 @@
+﻿---
+ID: "3077cca5-ffe4-4c59-9b48-5361e2c3c1ab"
+Parent: "2114c1ca-0657-40de-9728-be9cab6c1c50"
+Template: "d44ae29c-d708-4b3f-b04c-99e7f9288720"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipelines/Categories/Process WordPress Categories/Resolve Sitecore Item Pipeline Step
+DB: master
+SharedFields:
+- ID: "010e5d89-6409-4fbc-843b-ceb84c8ed3bb"
+  Hint: IdentifierObjectLocation
+  Value: "{17DF1143-A38D-4C77-A933-E66B5ED21E9A}"
+- ID: "21875be1-ad41-4541-88cf-7e47551bb6ac"
+  Hint: ItemNameValueAccessor
+  Value: "{668127C2-5C84-4EF1-82CC-D9E2E92B45DC}"
+- ID: "3798a7e3-61ff-4ba3-b8ba-f5cba2929517"
+  Hint: TemplateForNewItem
+  Value: "{0BE6B54C-C9EF-498F-B65B-98336C2BBEB8}"
+- ID: "4ce9ed44-bc7f-44e5-886d-97d9a6890faa"
+  Hint: IdentifierValueAccessor
+  Value: "{06660C5E-90FF-4896-86B6-19725D331F9C}"
+- ID: "5c061c42-ff86-4f43-b5ad-831dc03dc77d"
+  Hint: ResolvedObjectLocation
+  Value: "{EC64487D-E7E6-40B0-A86C-40C74B95E04E}"
+- ID: "922e98e7-be62-4a67-8273-551f2e8c8bfe"
+  Hint: EndpointFrom
+  Value: "{986C67ED-7732-4593-AC00-870FD40E67BA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "d922ea57-bce2-4457-bc60-5fcaafa36707"
+  Hint: ParentForItem
+  Value: "{CC27DD35-F799-449B-B91C-8867DA6BCD95}"
+- ID: "e074292d-0467-443c-a1b5-cbd5e5162813"
+  Hint: MatchingFieldValueAccessor
+  Value: "{8D7A0D94-F6C0-4759-874E-E7205B36766B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T042608Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

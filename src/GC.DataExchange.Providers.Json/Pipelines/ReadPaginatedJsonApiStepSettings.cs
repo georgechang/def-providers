@@ -2,8 +2,8 @@
 {
     public class ReadPaginatedJsonApiStepSettings : ReadJsonApiStepSettings
     {
-        public string Page { get; set; }
-        public string Offset { get; set; }
-        public string ResultsPerPage { get; set; }
+        public int Page { get; set; }
+        public int Offset { get; set; }
+        public int ResultsPerPage { get; set; }
     }
 }

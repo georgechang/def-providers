@@ -1,0 +1,18 @@
+﻿---
+ID: "e8b672a6-7a61-449d-99ea-64f6329abdaa"
+Parent: "6090fdbe-e7bb-454a-9025-8416f2dc3bae"
+Template: "9748075a-268b-4bd4-8444-c6898b12d502"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Value Mapping Sets/Category Mapping Set
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T211604Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

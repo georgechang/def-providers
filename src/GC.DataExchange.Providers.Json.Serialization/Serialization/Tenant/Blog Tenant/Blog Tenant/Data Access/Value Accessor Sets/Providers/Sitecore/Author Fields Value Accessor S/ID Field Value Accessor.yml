@@ -1,0 +1,22 @@
+﻿---
+ID: "a9675a6d-1788-4789-b9a4-cd12979e6aa5"
+Parent: "8575e5b4-3c3f-45ef-b8b0-b11db40c8c69"
+Template: "6f7375cc-9942-4e30-8c63-95281b69c65f"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Accessor Sets/Providers/Sitecore/Author Fields Value Accessor Set/ID Field Value Accessor
+DB: master
+SharedFields:
+- ID: "a011c1d5-1c40-4420-8592-d0ce0306e0dd"
+  Hint: Field
+  Value: "{815543AB-58D0-455C-97A8-5CD1CE525AFB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T042843Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

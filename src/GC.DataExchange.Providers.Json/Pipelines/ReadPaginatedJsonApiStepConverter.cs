@@ -11,7 +11,7 @@ namespace GC.DataExchange.Providers.Json.Pipelines
     [SupportedIds(ReadPaginatedJsonApiStepTemplateId)]
     public class ReadPaginatedJsonApiStepConverter : BasePipelineStepConverter
     {
-        public const string ReadPaginatedJsonApiStepTemplateId = "{7DB65221-D742-4AB1-B04E-46A88FBE087F}";
+        public const string ReadPaginatedJsonApiStepTemplateId = "{48444815-A3ED-416A-A9AE-2CD310DC747A}";
         public ReadPaginatedJsonApiStepConverter(IItemModelRepository repository) : base(repository)
         {
         }
@@ -29,9 +29,9 @@ namespace GC.DataExchange.Providers.Json.Pipelines
             {
                 MaxCount = this.GetIntValue(source, "Max Count"),
                 QueryParameters = HttpUtility.ParseQueryString(this.GetStringValue(source, "Query Parameters")),
-                Page = this.GetStringValue(source, "Page"),
-                Offset = this.GetStringValue(source, "Offset"),
-                ResultsPerPage = this.GetStringValue(source, "Results Per Page")
+                Page = this.GetIntValue(source, "Page"),
+                Offset = this.GetIntValue(source, "Offset"),
+                ResultsPerPage = this.GetIntValue(source, "Results Per Page")
             };
 
             pipelineStep.AddPlugin(pipelineSettings);

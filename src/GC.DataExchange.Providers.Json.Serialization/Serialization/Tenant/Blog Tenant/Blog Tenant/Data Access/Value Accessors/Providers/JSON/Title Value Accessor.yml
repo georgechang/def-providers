@@ -1,0 +1,17 @@
+﻿---
+ID: "fb5de3b4-a7c9-4d97-8ecd-3aa1460b2b0e"
+Parent: "0d270fc8-d476-460d-bd7c-475dee55ef2c"
+Template: "b6321e01-c334-43e4-887e-5859df4a28f8"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Accessors/Providers/JSON/Title Value Accessor
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T232412Z
+    - ID: "7dd77547-d418-4830-b955-559e700113a1"
+      Hint: Property
+      Value: title.rendered

@@ -1,0 +1,18 @@
+﻿---
+ID: "fb2cc605-34ef-4ae9-8c3c-7508a52f82ef"
+Parent: "d2322162-b035-4799-af14-0e876a1354b0"
+Template: "afc56763-0a1e-4e3e-9ed3-137d92c1919e"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Providers/JSON/Sitecore General Link Value Reader
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T204446Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

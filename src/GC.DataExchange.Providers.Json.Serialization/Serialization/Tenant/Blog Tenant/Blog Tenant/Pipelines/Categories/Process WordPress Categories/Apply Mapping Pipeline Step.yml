@@ -1,0 +1,22 @@
+﻿---
+ID: "d3c97d6e-ce72-4ff5-9f5b-d884ff451f85"
+Parent: "2114c1ca-0657-40de-9728-be9cab6c1c50"
+Template: "8e726575-35cf-48a0-b2c9-00c30d16f2d9"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipelines/Categories/Process WordPress Categories/Apply Mapping Pipeline Step
+DB: master
+SharedFields:
+- ID: "cb970e4d-aa7c-4ad1-8984-59bf01163d08"
+  Hint: MappingSet
+  Value: "{E8B672A6-7A61-449D-99EA-64F6329ABDAA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T043058Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

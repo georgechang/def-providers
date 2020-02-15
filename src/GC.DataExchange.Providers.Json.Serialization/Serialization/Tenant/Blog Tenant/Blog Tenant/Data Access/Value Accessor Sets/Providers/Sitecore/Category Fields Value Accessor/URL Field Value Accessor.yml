@@ -1,0 +1,22 @@
+﻿---
+ID: "df5c66d6-889e-4afe-abce-36913d781730"
+Parent: "c844837f-b9f2-4682-ad2c-da5d8e33f91d"
+Template: "6f7375cc-9942-4e30-8c63-95281b69c65f"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Accessor Sets/Providers/Sitecore/Category Fields Value Accessor Set/URL Field Value Accessor
+DB: master
+SharedFields:
+- ID: "a011c1d5-1c40-4420-8592-d0ce0306e0dd"
+  Hint: Field
+  Value: "{4C7AD6A1-B2B4-40A0-9B85-D7BA5C813A3F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T211543Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

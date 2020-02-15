@@ -1,0 +1,14 @@
+﻿---
+ID: "ad688266-a1e3-462e-a6c7-448ef74f7d26"
+Parent: "7db65221-d742-4ab1-b04e-46a88fbe087f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Pipeline Steps/Read JSON API Pipeline Step/Endpoints
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T185228Z

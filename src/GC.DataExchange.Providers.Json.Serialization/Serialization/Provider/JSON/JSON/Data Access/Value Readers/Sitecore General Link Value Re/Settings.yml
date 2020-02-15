@@ -1,0 +1,14 @@
+﻿---
+ID: "5e013f13-99c7-482c-ad70-f388800ba4a5"
+Parent: "afc56763-0a1e-4e3e-9ed3-137d92c1919e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/Sitecore General Link Value Reader/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T204325Z

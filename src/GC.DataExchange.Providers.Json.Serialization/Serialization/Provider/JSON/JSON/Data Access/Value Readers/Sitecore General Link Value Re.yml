@@ -1,0 +1,25 @@
+﻿---
+ID: "afc56763-0a1e-4e3e-9ed3-137d92c1919e"
+Parent: "ac814c43-b3cf-48d0-89b2-3fe5c15d917b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/Sitecore General Link Value Reader
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/link.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{F015F1EC-BFE9-4889-9F2F-7B24393E64A7}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{B64B92CD-5FD7-4607-A45E-50DB5FBA1BC8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T204303Z

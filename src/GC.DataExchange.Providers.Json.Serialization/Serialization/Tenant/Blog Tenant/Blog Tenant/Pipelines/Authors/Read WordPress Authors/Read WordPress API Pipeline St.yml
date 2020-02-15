@@ -1,0 +1,20 @@
+﻿---
+ID: "5a49efea-cb23-4457-858c-bab85fd9ddd6"
+Parent: "7a02fad4-192c-4339-8f7b-c7ca586d457f"
+Template: "48444815-a3ed-416a-a9ae-2cd310dc747a"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipelines/Authors/Read WordPress Authors/Read WordPress API Pipeline Step
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1590f96f-700c-483d-943d-c71772bcfd69"
+      Hint: Endpoint
+      Value: "{1B746056-8C4A-4CBD-9BD0-28EFAF4AC7E2}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T040624Z
+    - ID: "6f560c4c-8162-4449-814e-3966e3feab64"
+      Hint: Results Per Page
+      Value: 50

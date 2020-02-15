@@ -1,0 +1,18 @@
+﻿---
+ID: "e73a412e-09f1-4af3-85fb-a6183f558f4a"
+Parent: "546ab044-6302-4aa7-aadf-3e3355a00682"
+Template: "70ed1d4d-3796-400d-a64e-e538d933e12c"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipelines/Authors
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T200044Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

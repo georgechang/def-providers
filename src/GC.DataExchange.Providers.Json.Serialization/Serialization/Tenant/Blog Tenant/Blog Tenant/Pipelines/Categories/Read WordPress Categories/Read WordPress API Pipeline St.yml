@@ -1,0 +1,17 @@
+﻿---
+ID: "b8dee35b-3d5f-48d9-a9d5-982eb4ec47be"
+Parent: "4072defb-6b76-43cf-a20c-d2550156c19c"
+Template: "48444815-a3ed-416a-a9ae-2cd310dc747a"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipelines/Categories/Read WordPress Categories/Read WordPress API Pipeline Step
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1590f96f-700c-483d-943d-c71772bcfd69"
+      Hint: Endpoint
+      Value: "{E813D6F4-D716-4069-9F4F-6662C75DE521}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T040624Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "e0b25923-38b8-47bd-a370-ce4daf97d508"
+Parent: "10325b3a-6b49-400e-930b-c2754b7d541e"
+Template: "b384fb2d-fbef-4a8e-9572-fa5fb9f75a7d"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipelines/Authors/Process WordPress Authors/Update Sitecore Item Pipeline Step
+DB: master
+SharedFields:
+- ID: "53ca50c3-f968-47d4-b19f-9ef305f99403"
+  Hint: ItemLocation
+  Value: "{EC64487D-E7E6-40B0-A86C-40C74B95E04E}"
+- ID: "e8609af1-3e0a-41ae-894d-03dcd99165a7"
+  Hint: EndpointTo
+  Value: "{986C67ED-7732-4593-AC00-870FD40E67BA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T043249Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

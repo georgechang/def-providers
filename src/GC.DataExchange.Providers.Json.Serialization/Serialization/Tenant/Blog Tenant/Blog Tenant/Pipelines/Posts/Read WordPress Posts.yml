@@ -1,0 +1,18 @@
+﻿---
+ID: "2e7d708d-7470-4b35-b2ff-2f8ead9f7743"
+Parent: "8b08743e-218a-4dff-a29e-c559c53c4497"
+Template: "2dc9c843-b841-483c-bb9b-ae0c9386404c"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipelines/Posts/Read WordPress Posts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T040617Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

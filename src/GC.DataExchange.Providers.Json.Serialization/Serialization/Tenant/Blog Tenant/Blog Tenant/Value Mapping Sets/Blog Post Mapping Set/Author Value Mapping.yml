@@ -1,0 +1,26 @@
+﻿---
+ID: "353592fb-de87-46b4-86b3-09951131a0db"
+Parent: "b868e025-85e7-4a02-8229-3f03ecbc951d"
+Template: "450c8f38-91c9-4896-957b-6f7daf18ccfc"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Value Mapping Sets/Blog Post Mapping Set/Author Value Mapping
+DB: master
+SharedFields:
+- ID: "95184b45-efef-447c-9089-4f2ec5df26c5"
+  Hint: SourceAccessor
+  Type: Treelist
+  Value: "{3918C38A-8B16-44AD-91CB-3BB760D5E185}"
+- ID: "ef84b462-7f4a-4f48-b78e-ade192d55e82"
+  Hint: TargetAccessor
+  Value: "{1CF63080-05BA-4AF4-89A0-F6256E009A71}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T233048Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

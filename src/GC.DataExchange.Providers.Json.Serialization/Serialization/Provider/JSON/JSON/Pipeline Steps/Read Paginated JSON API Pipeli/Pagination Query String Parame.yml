@@ -1,0 +1,14 @@
+﻿---
+ID: "33bc5c7f-91ce-44a0-9d7d-9db62b2d383f"
+Parent: "48444815-a3ed-416a-a9ae-2cd310dc747a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Pipeline Steps/Read Paginated JSON API Pipeline Step/Pagination Query String Parameters
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200209T235035Z

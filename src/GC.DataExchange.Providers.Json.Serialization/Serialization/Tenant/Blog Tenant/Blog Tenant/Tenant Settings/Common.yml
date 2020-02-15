@@ -1,0 +1,23 @@
+﻿---
+ID: "6d277073-162e-4960-9385-9daa76c4e77d"
+Parent: "237e4072-bea3-443e-97d0-22149ad9f041"
+Template: "9d097a04-8a41-4689-8b5d-4607f11b4457"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Tenant Settings/Common
+DB: master
+BranchID: "0d21226f-7b04-4ff2-9230-b55245cf6fe7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6D277073-162E-4960-9385-9DAA76C4E77D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T162622Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
