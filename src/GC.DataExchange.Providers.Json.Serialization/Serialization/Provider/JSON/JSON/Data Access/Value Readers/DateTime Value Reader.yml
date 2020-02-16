@@ -1,22 +1,20 @@
 ﻿---
-ID: "c9361839-c516-4973-a533-3f52f7e1a244"
-Parent: "880db99c-4f02-466b-8193-502b93d33819"
+ID: "0a2e2d72-ca72-4c68-81e6-85df8b4ef276"
+Parent: "ac814c43-b3cf-48d0-89b2-3fe5c15d917b"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Accessors/JSON Value Accessor
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/DateTime Value Reader
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: office/32x32/radio_button_selected.png
+  Value: office/32x32/graph_from.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
-  Value: |
-    {5C8862A6-7B47-4354-92F6-11EB080E6D0C}
-    {8A6A1293-7166-4455-B12B-379EB3B81EDB}
+  Value: "{F015F1EC-BFE9-4889-9F2F-7B24393E64A7}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{E0E8B35A-2446-4070-A605-E8BFBE883E0E}"
+  Value: "{E4AF1B90-4160-4F54-94E5-9FE2645F2B11}"
 Languages:
 - Language: en
   Versions:
@@ -24,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200216T011026Z
+      Value: 20200216T022143Z

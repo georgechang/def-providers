@@ -52,6 +52,8 @@ namespace GC.DataExchange.Providers.Json.Pipelines
             var pipelineStepSettings = pipelineStep.GetPlugin<ReadPaginatedJsonApiStepSettings>();
             if (pipelineStepSettings == null) return;
 
+            logger.Debug("Executing pipeline step: ", $"MaxCount: { pipelineStepSettings.MaxCount }", $"ResultsPerPage: { pipelineStepSettings.ResultsPerPage }", $"Page: { pipelineStepSettings.Page }", $"Offset: { pipelineStepSettings.Offset }");
+
             var uri = new UriBuilder(endpointSettings.ApiUrl);
             var query = HttpUtility.ParseQueryString(uri.Query);
             query["per_page"] = pipelineStepSettings.ResultsPerPage.ToString();
@@ -62,7 +64,7 @@ namespace GC.DataExchange.Providers.Json.Pipelines
             var batch = GetDataAsync(uri.Uri.AbsoluteUri).GetAwaiter().GetResult().ToList();
             var page = pipelineStepSettings.Page;
 
-            while (batch.Any())
+            while (batch.Any() && (pipelineStepSettings.MaxCount< 0 || pipelineStepSettings.MaxCount > 0 && data.Count < pipelineStepSettings.MaxCount))
             {
                 data.AddRange(batch);
                 page++;

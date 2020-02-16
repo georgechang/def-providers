@@ -8,10 +8,13 @@ SharedFields:
 - ID: "95184b45-efef-447c-9089-4f2ec5df26c5"
   Hint: SourceAccessor
   Type: Treelist
-  Value: "{3918C38A-8B16-44AD-91CB-3BB760D5E185}"
+  Value: "{135890B9-DAC8-47A5-9C27-9D804DC7F58C}"
 - ID: "ef84b462-7f4a-4f48-b78e-ade192d55e82"
   Hint: TargetAccessor
   Value: "{1CF63080-05BA-4AF4-89A0-F6256E009A71}"
+- ID: "fd738fc4-54b9-4aa3-bb8c-5749ba0907c4"
+  Hint: SourceValueTransformer
+  Value: "{9BF8F83E-B7C8-422E-B96C-F296E6FAAF06}"
 Languages:
 - Language: en
   Versions:

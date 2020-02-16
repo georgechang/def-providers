@@ -1,16 +1,16 @@
 ﻿---
-ID: "df52cc00-3838-42e4-8dd9-e40d430f6fb4"
-Parent: "ad688266-a1e3-462e-a6c7-448ef74f7d26"
+ID: "7dd77547-d418-4830-b955-559e700113a1"
+Parent: "0fcac432-d1e3-4658-b27b-465f5007ae0b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Data Exchange/Providers/JSON/Pipeline Steps/Read JSON API Pipeline Step/Endpoints/Query Parameters
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/JSON Value Reader/Settings/JSON Path
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Name Value List
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200209T234816Z
+      Value: 20200209T005410Z

@@ -1,0 +1,20 @@
+﻿---
+ID: "b25dad57-3ec5-46e9-ab95-59c04150a369"
+Parent: "d2322162-b035-4799-af14-0e876a1354b0"
+Template: "0dd68438-3d85-46fb-89ab-998eb9512b13"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Providers/JSON/Category Reference Field Value Reader
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fd46e30-030a-4d26-acaa-77c90738d259"
+      Hint: Parent
+      Value: "{CC27DD35-F799-449B-B91C-8867DA6BCD95}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T021358Z
+    - ID: "ae40bdbd-8e6e-4790-a283-e119d883710c"
+      Hint: Template
+      Value: "{0BE6B54C-C9EF-498F-B65B-98336C2BBEB8}"

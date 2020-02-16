@@ -1,0 +1,20 @@
+﻿---
+ID: "9bf8f83e-b7c8-422e-b96c-f296e6faaf06"
+Parent: "d2322162-b035-4799-af14-0e876a1354b0"
+Template: "0dd68438-3d85-46fb-89ab-998eb9512b13"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Providers/JSON/Author Reference Field Value Reader
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fd46e30-030a-4d26-acaa-77c90738d259"
+      Hint: Parent
+      Value: "{DE796EC4-BDAC-49BC-89AC-85F0F42D4A17}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T233831Z
+    - ID: "ae40bdbd-8e6e-4790-a283-e119d883710c"
+      Hint: Template
+      Value: "{B7FAD5BF-F666-4DC5-A388-85FC077AF406}"

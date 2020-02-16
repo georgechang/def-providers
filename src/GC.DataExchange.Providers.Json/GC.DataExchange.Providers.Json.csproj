@@ -67,17 +67,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\DateTimeValueReaderConverter.cs" />
+    <Compile Include="Converters\SitecoreReferenceFieldValueReaderConverter.cs" />
     <Compile Include="Pipelines\ReadPaginatedJsonApiStepSettings.cs" />
     <Compile Include="Pipelines\ReadPaginatedJsonApiStepConverter.cs" />
     <Compile Include="Pipelines\ReadPaginatedJsonApiStepProcessor.cs" />
     <Compile Include="Pipelines\ReadJsonApiStepSettings.cs" />
+    <Compile Include="Readers\DateTimeValueReader.cs" />
     <Compile Include="Readers\SitecoreGeneralLinkValueReader.cs" />
-    <Compile Include="ValueAccessors\SitecoreGeneralLinkValueReaderConverter.cs" />
-    <Compile Include="ValueAccessors\JsonValueAccessorConverter.cs" />
+    <Compile Include="Converters\SitecoreGeneralLinkValueReaderConverter.cs" />
+    <Compile Include="Readers\SitecoreReferenceFieldValueReader.cs" />
+    <Compile Include="Converters\JsonValueReaderConverter.cs" />
     <Compile Include="Endpoint\JsonApiEndpointConverter.cs" />
     <Compile Include="Endpoint\JsonApiSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Readers\JsonValueReader.cs" />
+    <Compile Include="ValueAccessors\JsonValueAccessorConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

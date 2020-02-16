@@ -1,0 +1,17 @@
+﻿---
+ID: "c55c08de-3503-46ab-b9ad-e0b6e6849b9c"
+Parent: "3b533207-b8fc-42fe-ae15-76f9aa255bdf"
+Template: "c9361839-c516-4973-a533-3f52f7e1a244"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Accessors/Providers/JSON/Slug JSON Value Accessor
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T011756Z
+    - ID: "7dd77547-d418-4830-b955-559e700113a1"
+      Hint: JSON Path
+      Value: $.slug

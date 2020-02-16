@@ -1,7 +1,7 @@
 ﻿---
-ID: "0ebb471e-efce-4705-8670-00f8ac522b20"
-Parent: "b6321e01-c334-43e4-887e-5859df4a28f8"
-Template: "b6321e01-c334-43e4-887e-5859df4a28f8"
+ID: "e0e8b35a-2446-4070-a605-e8bfbe883e0e"
+Parent: "c9361839-c516-4973-a533-3f52f7e1a244"
+Template: "c9361839-c516-4973-a533-3f52f7e1a244"
 Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Accessors/JSON Value Accessor/__Standard Values
 DB: master
 SharedFields:
@@ -15,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200209T044906Z
+      Value: 20200216T011142Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

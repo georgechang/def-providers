@@ -28,7 +28,7 @@ namespace GC.DataExchange.Providers.Json.Pipelines
             var pipelineSettings = new ReadPaginatedJsonApiStepSettings()
             {
                 MaxCount = this.GetIntValue(source, "Max Count"),
-                QueryParameters = HttpUtility.ParseQueryString(this.GetStringValue(source, "Query Parameters")),
+                //QueryParameters = HttpUtility.ParseQueryString(this.GetStringValue(source, "Query Parameters")),
                 Page = this.GetIntValue(source, "Page"),
                 Offset = this.GetIntValue(source, "Offset"),
                 ResultsPerPage = this.GetIntValue(source, "Results Per Page")

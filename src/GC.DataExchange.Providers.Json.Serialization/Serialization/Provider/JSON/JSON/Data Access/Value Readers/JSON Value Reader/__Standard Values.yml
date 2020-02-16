@@ -1,0 +1,22 @@
+﻿---
+ID: "690529c4-a504-4c61-9588-537a845989ac"
+Parent: "8a6a1293-7166-4455-b12b-379eb3b81edb"
+Template: "8a6a1293-7166-4455-b12b-379eb3b81edb"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/JSON Value Reader/__Standard Values
+DB: master
+SharedFields:
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value: GC.DataExchange.Providers.Json.Converters.JsonValueReaderConverter, GC.DataExchange.Providers.Json
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T234717Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

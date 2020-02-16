@@ -8,7 +8,7 @@ SharedFields:
 - ID: "95184b45-efef-447c-9089-4f2ec5df26c5"
   Hint: SourceAccessor
   Type: Treelist
-  Value: "{19A93327-62F2-4680-A9B3-1975720DE339}"
+  Value: "{1727C6BE-EC1C-4D05-87DF-E101F0548B1D}"
 - ID: "ef84b462-7f4a-4f48-b78e-ade192d55e82"
   Hint: TargetAccessor
   Value: "{B6930868-1926-4427-947E-B77828BDF3E4}"

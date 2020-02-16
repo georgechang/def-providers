@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
   Hint: ConverterType
-  Value: GC.DataExchange.Providers.Json.ValueAccessors.SitecoreGeneralLinkValueReaderConverter, GC.DataExchange.Providers.Json
+  Value: GC.DataExchange.Providers.Json.Converters.SitecoreGeneralLinkValueReaderConverter, GC.DataExchange.Providers.Json
 Languages:
 - Language: en
   Versions:

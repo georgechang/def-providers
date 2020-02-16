@@ -7,10 +7,11 @@ using Sitecore.Services.Core.Model;
 
 namespace GC.DataExchange.Providers.Json.ValueAccessors
 {
-    [SupportedIds(JsonValueAccessorTemplateId)]
+    [SupportedIds(JsonValueAccessorConverterTemplateId)]
     public class JsonValueAccessorConverter : ValueAccessorConverter
     {
-        public const string JsonValueAccessorTemplateId = "{B6321E01-C334-43E4-887E-5859DF4A28F8}";
+        public const string JsonValueAccessorConverterTemplateId = "{C9361839-C516-4973-A533-3F52F7E1A244}";
+
         public JsonValueAccessorConverter(IItemModelRepository repository) : base(repository)
         {
         }
@@ -19,10 +20,10 @@ namespace GC.DataExchange.Providers.Json.ValueAccessors
         {
             var reader = base.GetValueReader(source);
             if (reader != null) return reader;
-            
-            var name = this.GetStringValue(source, "Property");
-            reader = new JsonValueReader(name);
-            return reader;
+
+            var jsonPath = this.GetStringValue(source, "JSON Path");
+
+            return string.IsNullOrEmpty(jsonPath) ? null : new JsonValueReader(jsonPath);
         }
     }
 }

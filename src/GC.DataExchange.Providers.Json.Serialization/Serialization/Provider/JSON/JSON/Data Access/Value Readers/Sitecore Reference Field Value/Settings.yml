@@ -1,0 +1,14 @@
+﻿---
+ID: "e33bebd9-3a65-44ce-bbba-5203cc2b1e15"
+Parent: "0dd68438-3d85-46fb-89ab-998eb9512b13"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/Sitecore Reference Field Value Reader/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T233552Z

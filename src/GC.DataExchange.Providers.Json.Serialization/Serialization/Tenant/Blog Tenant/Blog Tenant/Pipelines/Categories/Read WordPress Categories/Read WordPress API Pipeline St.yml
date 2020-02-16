@@ -15,3 +15,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200209T040624Z
+    - ID: "7431f9dc-7a1b-4466-a801-914327a55396"
+      Hint: Max Count
+      Value: "-1"

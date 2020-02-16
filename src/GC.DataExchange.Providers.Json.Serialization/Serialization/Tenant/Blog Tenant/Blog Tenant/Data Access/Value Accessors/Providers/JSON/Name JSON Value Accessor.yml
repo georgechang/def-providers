@@ -1,0 +1,17 @@
+﻿---
+ID: "a28e9ba1-8036-40f9-9a1e-2a8452d016cb"
+Parent: "3b533207-b8fc-42fe-ae15-76f9aa255bdf"
+Template: "c9361839-c516-4973-a533-3f52f7e1a244"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Accessors/Providers/JSON/Name JSON Value Accessor
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T011620Z
+    - ID: "7dd77547-d418-4830-b955-559e700113a1"
+      Hint: JSON Path
+      Value: $.name

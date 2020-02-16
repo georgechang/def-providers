@@ -16,3 +16,7 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
+    - ID: "d6341e2f-683e-4b21-8ef0-dc9586c1722e"
+      Hint: Format
+      Value: |
+        <link linktype="external" url="{0}" anchor="" target="" />

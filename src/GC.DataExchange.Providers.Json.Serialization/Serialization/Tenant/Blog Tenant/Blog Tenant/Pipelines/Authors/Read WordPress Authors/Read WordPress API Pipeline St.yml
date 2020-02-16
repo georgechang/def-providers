@@ -18,3 +18,6 @@ Languages:
     - ID: "6f560c4c-8162-4449-814e-3966e3feab64"
       Hint: Results Per Page
       Value: 50
+    - ID: "7431f9dc-7a1b-4466-a801-914327a55396"
+      Hint: Max Count
+      Value: "-1"

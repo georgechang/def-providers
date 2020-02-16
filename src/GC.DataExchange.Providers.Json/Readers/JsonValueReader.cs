@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Web;
 using Newtonsoft.Json.Linq;
 using Sitecore.DataExchange.DataAccess;
@@ -8,13 +7,13 @@ namespace GC.DataExchange.Providers.Json.Readers
 {
     public class JsonValueReader : IValueReader
     {
-        public string PropertyName { get; private set; }
+        public string JsonPath { get; private set; }
 
-        public JsonValueReader(string propertyName)
+        public JsonValueReader(string jsonPath)
         {
-            if (string.IsNullOrWhiteSpace(propertyName))
-                throw new ArgumentOutOfRangeException(nameof(propertyName), (object)propertyName, "Property name must be specified.");
-            this.PropertyName = propertyName;
+            if (string.IsNullOrWhiteSpace(jsonPath))
+                throw new ArgumentOutOfRangeException(nameof(jsonPath), (object)jsonPath, "JSON path must be specified.");
+            this.JsonPath = jsonPath;
         }
 
         public ReadResult Read(object source, DataAccessContext context)
@@ -26,11 +25,11 @@ namespace GC.DataExchange.Providers.Json.Readers
 
             if (!(source is JObject jsonObject)) return readResult;
             
-            var property = jsonObject.Properties().FirstOrDefault(x => x.Name == this.PropertyName);
+            var property = jsonObject.SelectToken(this.JsonPath);
             if (property == null) return readResult;
 
             readResult.WasValueRead = true;
-            readResult.ReadValue = HttpUtility.HtmlDecode((string)property.Value);
+            readResult.ReadValue = HttpUtility.HtmlDecode(property.ToString());
             return readResult;
         }
     }

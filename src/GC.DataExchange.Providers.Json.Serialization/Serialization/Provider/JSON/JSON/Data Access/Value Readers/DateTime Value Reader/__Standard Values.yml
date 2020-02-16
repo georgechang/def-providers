@@ -1,0 +1,22 @@
+﻿---
+ID: "e4af1b90-4160-4f54-94e5-9fe2645f2b11"
+Parent: "0a2e2d72-ca72-4c68-81e6-85df8b4ef276"
+Template: "0a2e2d72-ca72-4c68-81e6-85df8b4ef276"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/DateTime Value Reader/__Standard Values
+DB: master
+SharedFields:
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value: GC.DataExchange.Providers.Json.Converters.DateTimeValueReaderConverter, GC.DataExchange.Providers.Json
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T022155Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

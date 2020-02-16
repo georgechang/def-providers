@@ -1,17 +1,20 @@
 ﻿---
-ID: "892e79fb-b91d-4078-9c3c-064a5479b8d2"
-Parent: "b868e025-85e7-4a02-8229-3f03ecbc951d"
+ID: "1a3950a0-8b12-484a-bb75-3de89a42bb05"
+Parent: "e8b672a6-7a61-449d-99ea-64f6329abdaa"
 Template: "450c8f38-91c9-4896-957b-6f7daf18ccfc"
-Path: /sitecore/system/Data Exchange/Blog Tenant/Value Mapping Sets/Blog Post Mapping Set/ID Value Mapping
+Path: /sitecore/system/Data Exchange/Blog Tenant/Value Mapping Sets/Category Mapping Set/Link Value Mapping
 DB: master
 SharedFields:
 - ID: "95184b45-efef-447c-9089-4f2ec5df26c5"
   Hint: SourceAccessor
   Type: Treelist
-  Value: "{73BA2ABA-2305-4AEA-81DC-17BF2522D762}"
+  Value: "{1727C6BE-EC1C-4D05-87DF-E101F0548B1D}"
 - ID: "ef84b462-7f4a-4f48-b78e-ade192d55e82"
   Hint: TargetAccessor
-  Value: "{AEB85B67-3B34-41E9-8599-F1F16B5DD0A2}"
+  Value: "{DF5C66D6-889E-4AFE-ABCE-36913D781730}"
+- ID: "fd738fc4-54b9-4aa3-bb8c-5749ba0907c4"
+  Hint: SourceValueTransformer
+  Value: "{FB2CC605-34EF-4AE9-8C3C-7508A52F82EF}"
 Languages:
 - Language: en
   Versions:
@@ -19,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200209T232928Z
+      Value: 20200209T211726Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
