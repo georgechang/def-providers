@@ -9,16 +9,16 @@ using Sitecore.Services.Core.Model;
 namespace GC.DataExchange.Providers.Json.Converters
 {
     [SupportedIds(DateTimeValueReaderTemplateId)]
-    public class DateTimeValueReaderConverter : BaseItemModelConverter<IValueReader>
+    public class StringToDateTimeValueReaderConverter : BaseItemModelConverter<IValueReader>
     {
         public const string DateTimeValueReaderTemplateId = "{0A2E2D72-CA72-4C68-81E6-85DF8B4EF276}";
-        public DateTimeValueReaderConverter(IItemModelRepository repository) : base(repository)
+        public StringToDateTimeValueReaderConverter(IItemModelRepository repository) : base(repository)
         {
         }
 
         protected override ConvertResult<IValueReader> ConvertSupportedItem(ItemModel source)
         {
-            return this.PositiveResult(new DateTimeValueReader());
+            return this.PositiveResult(new StringToDateTimeValueReader());
         }
     }
 }

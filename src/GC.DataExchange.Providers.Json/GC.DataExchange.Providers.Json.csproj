@@ -67,13 +67,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Converters\DateTimeValueReaderConverter.cs" />
+    <Compile Include="Converters\DateTimeToStringValueReaderConverter.cs" />
+    <Compile Include="Converters\StringToDateTimeValueReaderConverter.cs" />
     <Compile Include="Converters\SitecoreReferenceFieldValueReaderConverter.cs" />
     <Compile Include="Pipelines\ReadPaginatedJsonApiStepSettings.cs" />
     <Compile Include="Pipelines\ReadPaginatedJsonApiStepConverter.cs" />
     <Compile Include="Pipelines\ReadPaginatedJsonApiStepProcessor.cs" />
     <Compile Include="Pipelines\ReadJsonApiStepSettings.cs" />
-    <Compile Include="Readers\DateTimeValueReader.cs" />
+    <Compile Include="Readers\DateTimeToStringValueReader.cs" />
+    <Compile Include="Readers\StringToDateTimeValueReader.cs" />
     <Compile Include="Readers\SitecoreGeneralLinkValueReader.cs" />
     <Compile Include="Converters\SitecoreGeneralLinkValueReaderConverter.cs" />
     <Compile Include="Readers\SitecoreReferenceFieldValueReader.cs" />

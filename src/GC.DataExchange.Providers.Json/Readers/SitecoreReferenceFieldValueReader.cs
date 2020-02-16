@@ -15,16 +15,7 @@ namespace GC.DataExchange.Providers.Json.Readers
 
         public ReadResult Read(object source, DataAccessContext context)
         {
-            var readResult = new ReadResult(DateTime.UtcNow)
-            {
-                WasValueRead = false
-            };
-
-            if (!(source is string sourceId)) return readResult;
-
-            readResult.ReadValue = MappingDictionary[sourceId];
-            readResult.WasValueRead = true;
-            return readResult;
+            return !(source is string sourceId) || !MappingDictionary.ContainsKey(sourceId) ? ReadResult.NegativeResult(DateTime.UtcNow) : ReadResult.PositiveResult(MappingDictionary[sourceId], DateTime.UtcNow);
         }
     }
 }

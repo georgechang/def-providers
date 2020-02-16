@@ -14,16 +14,7 @@ namespace GC.DataExchange.Providers.Json.Readers
 
         public ReadResult Read(object source, DataAccessContext context)
         {
-            var readResult = new ReadResult(DateTime.UtcNow)
-            {
-                WasValueRead = false
-            };
-
-            if (!(source is string url)) return readResult;
-            
-            readResult.ReadValue = string.Format(this.Format, url);
-            readResult.WasValueRead = true;
-            return readResult;
+            return !(source is string url) ? ReadResult.NegativeResult(DateTime.UtcNow) : ReadResult.PositiveResult(string.Format(this.Format, url), DateTime.UtcNow);
         }
     }
 }

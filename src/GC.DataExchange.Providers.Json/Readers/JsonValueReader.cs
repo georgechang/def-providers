@@ -18,19 +18,10 @@ namespace GC.DataExchange.Providers.Json.Readers
 
         public ReadResult Read(object source, DataAccessContext context)
         {
-            var readResult = new ReadResult(DateTime.UtcNow)
-            {
-                WasValueRead = false
-            };
-
-            if (!(source is JObject jsonObject)) return readResult;
+            if (!(source is JObject jsonObject)) return ReadResult.NegativeResult(DateTime.UtcNow);
             
             var property = jsonObject.SelectToken(this.JsonPath);
-            if (property == null) return readResult;
-
-            readResult.WasValueRead = true;
-            readResult.ReadValue = HttpUtility.HtmlDecode(property.ToString());
-            return readResult;
+            return property == null ? ReadResult.NegativeResult(DateTime.UtcNow) : ReadResult.PositiveResult(HttpUtility.HtmlDecode(property.ToString()), DateTime.UtcNow);
         }
     }
 }

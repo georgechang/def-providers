@@ -2,8 +2,12 @@
 ID: "62414525-6404-4262-a9a3-4c23fbf4e940"
 Parent: "d2322162-b035-4799-af14-0e876a1354b0"
 Template: "0a2e2d72-ca72-4c68-81e6-85df8b4ef276"
-Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Providers/JSON/DateTime Value Reader
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Providers/JSON/String To DateTime Value Reader
 DB: master
+SharedFields:
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value: GC.DataExchange.Providers.Json.Converters.StringToDateTimeValueReaderConverter, GC.DataExchange.Providers.Json
 Languages:
 - Language: en
   Versions:

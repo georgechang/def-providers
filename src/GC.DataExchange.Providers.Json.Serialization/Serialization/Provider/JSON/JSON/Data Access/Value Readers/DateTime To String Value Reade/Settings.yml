@@ -1,0 +1,14 @@
+﻿---
+ID: "a0da39c3-90e3-421e-a1f4-a39b6e35ccc5"
+Parent: "9208ec7c-8e04-495a-855b-6855d507f565"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/DateTime To String Value Reader/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T203154Z
