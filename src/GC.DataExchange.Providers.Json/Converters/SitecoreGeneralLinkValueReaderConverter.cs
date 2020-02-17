@@ -19,14 +19,8 @@ namespace GC.DataExchange.Providers.Json.Converters
 
         protected override ConvertResult<IValueReader> ConvertSupportedItem(ItemModel source)
         {
-            var reader = this.GetValueReader(source);
-            return reader == null ? this.NegativeResult(source, "Unable to get a value reader for the source item.") : this.PositiveResult(reader);
-        }
-
-        protected virtual IValueReader GetValueReader(ItemModel source)
-        {
             var format = this.GetStringValue(source, "Format");
-            return format == null ? null : new SitecoreGeneralLinkValueReader(format);
+            return format == null ? this.NegativeResult(source, "Field value not specified", "field: Format") : this.PositiveResult(new SitecoreGeneralLinkValueReader(format));
         }
     }
 }

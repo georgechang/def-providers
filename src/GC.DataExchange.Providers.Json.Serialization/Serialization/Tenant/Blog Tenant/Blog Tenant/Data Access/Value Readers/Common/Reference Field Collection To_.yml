@@ -1,0 +1,22 @@
+﻿---
+ID: "e8610e38-d56c-4a51-a46a-0e87934a5bf3"
+Parent: "98ada76e-fc57-4f02-a094-92cb4f976434"
+Template: "03639ab3-5c4b-45e3-ae4e-a41ef33f3e06"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Common/Reference Field Collection To String Value Reader
+DB: master
+SharedFields:
+- ID: "0fae0cd6-8958-4895-8fb2-5b5574457042"
+  Hint: Separator
+  Value: |
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T225021Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,26 @@
+﻿---
+ID: "c6790d42-a362-4b44-bbd6-a32794f2da89"
+Parent: "98ada76e-fc57-4f02-a094-92cb4f976434"
+Template: "bac9aafc-4b28-4e68-be0a-044faa75a1b6"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Common/WordPress API Date Time Value Reader
+DB: master
+SharedFields:
+- ID: "119527ce-7649-41eb-be73-f3db66e8ee1f"
+  Hint: StringFormat
+  Value: 
+- ID: "316bf34d-ffe0-485a-bbd6-c9ea60903d55"
+  Hint: ReadDateOnly
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T222624Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

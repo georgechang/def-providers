@@ -1,0 +1,20 @@
+﻿---
+ID: "27918461-aeea-4cfc-9c61-f14d6c4278f3"
+Parent: "d2322162-b035-4799-af14-0e876a1354b0"
+Template: "2a468299-1262-4c53-8a77-3df205d1e05f"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Providers/JSON/Categories Composite Value Reader
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T234234Z
+    - ID: "9aea774e-30fd-48f3-831b-5e8286355892"
+      Hint: Value Readers
+      Type: Treelist
+      Value: |
+        {B25DAD57-3EC5-46E9-AB95-59C04150A369}
+        {F75EE826-5897-46B0-8B59-FE2A8F51C9D9}

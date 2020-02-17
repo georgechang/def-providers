@@ -1,0 +1,22 @@
+﻿---
+ID: "95a253e7-b06b-4488-9aa0-4a09328cf580"
+Parent: "98ada76e-fc57-4f02-a094-92cb4f976434"
+Template: "efab0ad7-debe-4a04-b769-4920d9c6165e"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Common/Convert Category Collection Value Reader
+DB: master
+SharedFields:
+- ID: "378d82e3-a10b-40d4-8fd0-2d515ad73ece"
+  Hint: ValueReader
+  Value: "{27918461-AEEA-4CFC-9C61-F14D6C4278F3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T224721Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

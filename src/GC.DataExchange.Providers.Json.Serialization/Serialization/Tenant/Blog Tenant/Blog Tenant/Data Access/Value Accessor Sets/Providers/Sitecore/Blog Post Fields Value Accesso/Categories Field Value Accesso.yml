@@ -5,6 +5,9 @@ Template: "6f7375cc-9942-4e30-8c63-95281b69c65f"
 Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Accessor Sets/Providers/Sitecore/Blog Post Fields Value Accessor Set/Categories Field Value Accessor
 DB: master
 SharedFields:
+- ID: "9dc98fbd-9f05-4320-ba2b-07ae5c8d7428"
+  Hint: FieldValueTransformerForWrite
+  Value: "{E8610E38-D56C-4A51-A46A-0E87934A5BF3}"
 - ID: "a011c1d5-1c40-4420-8592-d0ce0306e0dd"
   Hint: Field
   Value: "{B2D5A97D-43A3-4152-9704-50A12193461F}"

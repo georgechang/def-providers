@@ -1,8 +1,8 @@
 ﻿---
-ID: "0a2e2d72-ca72-4c68-81e6-85df8b4ef276"
+ID: "2a468299-1262-4c53-8a77-3df205d1e05f"
 Parent: "ac814c43-b3cf-48d0-89b2-3fe5c15d917b"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/String To DateTime Value Reader
+Path: /sitecore/templates/Data Exchange/Providers/JSON/Data Access/Value Readers/Composite Value Reader
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -14,7 +14,7 @@ SharedFields:
   Value: "{F015F1EC-BFE9-4889-9F2F-7B24393E64A7}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{E4AF1B90-4160-4F54-94E5-9FE2645F2B11}"
+  Value: "{21DA50D9-CBF8-442D-B3F5-531957F9E1C0}"
 Languages:
 - Language: en
   Versions:
@@ -22,4 +22,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200216T022143Z
+      Value: 20200216T231845Z

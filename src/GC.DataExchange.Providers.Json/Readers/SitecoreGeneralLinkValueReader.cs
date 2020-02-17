@@ -9,7 +9,7 @@ namespace GC.DataExchange.Providers.Json.Readers
 
         public SitecoreGeneralLinkValueReader(string format)
         {
-            this.Format = !string.IsNullOrEmpty(format) ? format : "<link linktype=\"external\" url=\"{0}\" anchor=\"\" target=\"\" />";
+            this.Format = format;
         }
 
         public ReadResult Read(object source, DataAccessContext context)

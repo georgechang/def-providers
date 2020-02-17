@@ -12,6 +12,7 @@ namespace GC.DataExchange.Providers.Json.Converters
     public class DateTimeToStringValueReaderConverter : BaseItemModelConverter<IValueReader>
     {
         public const string DateTimeToStringValueReaderTemplateId = "{9208EC7C-8E04-495A-855B-6855D507F565}";
+
         public DateTimeToStringValueReaderConverter(IItemModelRepository repository) : base(repository)
         {
         }

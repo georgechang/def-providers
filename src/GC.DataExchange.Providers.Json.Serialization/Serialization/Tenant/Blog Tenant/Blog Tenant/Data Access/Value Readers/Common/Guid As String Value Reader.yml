@@ -1,0 +1,18 @@
+﻿---
+ID: "f75ee826-5897-46b0-8b59-fe2a8f51c9d9"
+Parent: "98ada76e-fc57-4f02-a094-92cb4f976434"
+Template: "17615bca-84f5-4461-a515-30be4e9a912d"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Common/Guid As String Value Reader
+DB: master
+SharedFields:
+- ID: "d4f25c61-b41a-4a06-ba9f-c5537e2a2bea"
+  Hint: Format
+  Value: "{5A0D9CD2-CA9E-4AAB-9E0F-35B47D2BDF21}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200217T011428Z

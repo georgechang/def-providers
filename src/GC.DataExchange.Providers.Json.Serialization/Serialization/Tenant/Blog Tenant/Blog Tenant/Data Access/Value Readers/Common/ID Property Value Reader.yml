@@ -1,0 +1,22 @@
+﻿---
+ID: "2e3aa537-6202-443f-84fe-6128c928deb3"
+Parent: "98ada76e-fc57-4f02-a094-92cb4f976434"
+Template: "34d69975-7ad7-460d-aac2-1988355f404d"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Value Readers/Common/ID Property Value Reader
+DB: master
+SharedFields:
+- ID: "169aeca8-d5ae-4a1a-8f79-f88fedcfe279"
+  Hint: PropertyName
+  Value: ID
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200216T234826Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

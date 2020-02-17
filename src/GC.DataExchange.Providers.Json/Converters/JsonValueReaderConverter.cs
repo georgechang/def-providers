@@ -12,6 +12,7 @@ namespace GC.DataExchange.Providers.Json.Converters
     public class JsonValueReaderConverter : BaseItemModelConverter<IValueReader>
     {
         public const string JsonValueReaderTemplateId = "{8A6A1293-7166-4455-B12B-379EB3B81EDB}";
+
         public JsonValueReaderConverter(IItemModelRepository repository) : base(repository)
         {
         }
