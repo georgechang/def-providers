@@ -1,0 +1,25 @@
+﻿---
+ID: "28d5336b-68b0-465d-943e-78ad2819a688"
+Parent: "0a05f70c-0997-4ea5-b9fa-b1145c1e32cf"
+Template: "fdb1dd86-aa33-4273-accd-0e8f76c58b5d"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Tenant Service Settings/Matching Conditions/Absolute Path Matching Condition
+DB: master
+SharedFields:
+- ID: "78a676ca-b772-4045-b5c3-cdda139c15fb"
+  Hint: ConditionOperator
+  Value: "{65EAF336-FFFD-45DA-B2B6-053A3DA6931A}"
+- ID: "db1f0570-4ef2-46fd-9273-10857defdd6c"
+  Hint: Path
+  Value: /blog/
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200222T185003Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

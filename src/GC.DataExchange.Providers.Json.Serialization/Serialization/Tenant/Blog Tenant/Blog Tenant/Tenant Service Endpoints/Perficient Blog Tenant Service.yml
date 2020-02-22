@@ -1,0 +1,32 @@
+﻿---
+ID: "b72962e0-5097-4ba8-9a0f-8a798f8a5281"
+Parent: "20c349a9-5314-49c5-8c4a-a4e09c179063"
+Template: "75ac60b4-2e0d-4a16-ac6b-35b8c0311032"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Tenant Service Endpoints/Perficient Blog Tenant Service Endpoint
+DB: master
+SharedFields:
+- ID: "3460927e-d33b-4c09-8b9b-c074b3f6cd10"
+  Hint: PipelineContextBuilder
+  Value: "{BBC1749A-0259-48A0-97DF-61C4CAFD80C6}"
+- ID: "506bad49-3da6-474c-acb5-7bcb509bfbd7"
+  Hint: Enabled
+  Type: Checkbox
+  Value: 1
+- ID: "51a235b2-509a-4be6-8e96-84eecc0babbb"
+  Hint: Pipeline
+  Value: "{7A02FAD4-192C-4339-8F7B-C7CA586D457F}"
+- ID: "63a37dae-886f-4a17-aae9-0c595f692f9d"
+  Hint: MatchingCondition
+  Value: "{28D5336B-68B0-465D-943E-78AD2819A688}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200222T184939Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

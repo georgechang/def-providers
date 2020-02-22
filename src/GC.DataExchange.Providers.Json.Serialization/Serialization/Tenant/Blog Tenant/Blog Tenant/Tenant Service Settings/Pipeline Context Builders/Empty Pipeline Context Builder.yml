@@ -1,0 +1,18 @@
+﻿---
+ID: "bbc1749a-0259-48a0-97df-61c4cafd80c6"
+Parent: "d8d29685-b6e3-4107-9f35-e132da273770"
+Template: "5b4d1ce1-3967-4253-97af-c38d795eaa85"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Tenant Service Settings/Pipeline Context Builders/Empty Pipeline Context Builder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200222T185700Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

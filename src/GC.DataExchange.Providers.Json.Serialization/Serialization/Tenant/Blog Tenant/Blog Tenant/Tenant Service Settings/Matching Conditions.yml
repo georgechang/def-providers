@@ -1,0 +1,22 @@
+﻿---
+ID: "0a05f70c-0997-4ea5-b9fa-b1145c1e32cf"
+Parent: "bb4c2ac3-9bf4-47d6-ba92-815de8829b6f"
+Template: "caa0539b-747e-4f96-ab02-e8d22aea8c30"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Tenant Service Settings/Matching Conditions
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200222T184907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
