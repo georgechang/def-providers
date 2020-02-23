@@ -1,0 +1,29 @@
+﻿---
+ID: "1b62cd33-c526-4fd7-81af-4b81f42c396d"
+Parent: "db823be3-4861-4412-9c1c-5c156048f8d5"
+Template: "b2613cc1-a748-46a3-a0db-3774574bd339"
+Path: /sitecore/templates/Branches/Data Exchange/Providers/JSON/Commands/JSON Value Accessors
+DB: master
+BranchID: "d1dcfbcc-dacc-414f-bdc4-8a3e1c41988b"
+SharedFields:
+- ID: "854cc8f6-94ad-4521-a4b6-44ed8f794c98"
+  Hint: Command
+  Value: "dataExchange:createItemWithoutPromptingForNameCommand(settingsItem={1B62CD33-C526-4FD7-81AF-4B81F42C396D})"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1325
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{BF1E390B-56CA-45AF-ACA0-58627A659C9D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T162438Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

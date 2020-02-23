@@ -1,0 +1,22 @@
+﻿---
+ID: "c18ea8bc-7587-4c9d-8111-c4f2b50445b5"
+Parent: "7b6408fc-8c90-4679-883d-fab2eebfc700"
+Template: "5e0fa6c9-110c-41fb-88b5-8c30b43878af"
+Path: /sitecore/templates/Branches/Data Exchange/Providers/JSON/Branches/JSON Tenant Settings Root/JSON/Filter Expression
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200215T162438Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
