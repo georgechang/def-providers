@@ -18,14 +18,14 @@ namespace GC.DataExchange.Providers.Json.Pipelines
 
         protected override void AddPlugins(ItemModel source, PipelineStep pipelineStep)
         {
-            var settings = new EndpointSettings()
+            var settings = new EndpointSettings
             {
                 EndpointFrom = this.ConvertReferenceToModel<Sitecore.DataExchange.Models.Endpoint>(source, "Endpoint"),
             };
 
             pipelineStep.AddPlugin(settings);
 
-            var pipelineSettings = new ReadPaginatedJsonApiStepSettings()
+            var pipelineSettings = new ReadPaginatedJsonApiStepSettings
             {
                 MaxCount = this.GetIntValue(source, "Max Count"),
                 //QueryParameters = HttpUtility.ParseQueryString(this.GetStringValue(source, "Query Parameters")),
