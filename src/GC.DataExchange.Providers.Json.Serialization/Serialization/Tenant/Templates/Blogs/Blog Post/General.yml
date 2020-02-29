@@ -1,0 +1,14 @@
+﻿---
+ID: "46512e5d-d086-4576-8085-99fbcda1659d"
+Parent: "a6e84fd4-93e5-46d8-9876-64a64ae36e82"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Blogs/Blog Post/General
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200208T180100Z

@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "0fae0cd6-8958-4895-8fb2-5b5574457042"
   Hint: Separator
-  Value: |
+  Value: 
 Languages:
 - Language: en
   Versions:
