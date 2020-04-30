@@ -2,16 +2,16 @@
 ID: "38648f3a-db9e-46e3-9328-6c9816d71cf3"
 Parent: "61b848a0-c333-4c5e-8c34-a6b7d91d14a1"
 Template: "075c4fbd-f54e-4e6d-bd54-d49bda0913d8"
-Path: /sitecore/system/Data Exchange/Blog Tenant/Pipeline Batches/Perficient Blogs Pipeline Batch
+Path: /sitecore/system/Data Exchange/Blog Tenant/Pipeline Batches/Authors and Categories Batch
 DB: master
 SharedFields:
 - ID: "2aa5c591-ff55-411d-96c0-978bb2c58b94"
   Hint: Log
   Value: |
-    C:\inetpub\wwwroot\def.sc\App_Data\logs\DataExchange\Blog.Tenant\Perficient.Blogs.Pipeline.Batch.20200217.010946.txt
+    C:\inetpub\wwwroot\def.sc\App_Data\logs\DataExchange\Blog.Tenant\Authors.and.Categories.Batch.20200430.184456.txt
 - ID: "6a2b2cbb-4338-4814-a8a9-9fecbb90456a"
   Hint: LastRunFinished
-  Value: 20200217T010958Z
+  Value: 20200430T184612Z
 - ID: "9061beea-df25-4b2b-a698-3f5b4e867d18"
   Hint: Pipelines
   Type: Treelist
@@ -20,7 +20,7 @@ SharedFields:
     {4072DEFB-6B76-43CF-A20C-D2550156C19C}
 - ID: "985ba535-0f3e-4da8-a768-a469026de9db"
   Hint: RequestedAt
-  Value: 20200217T010946Z
+  Value: 20200430T184456Z
 - ID: "e20cd41a-2930-4831-b0a4-9b70ae2996e7"
   Hint: IncludeStackTraceForExceptions
   Type: Checkbox

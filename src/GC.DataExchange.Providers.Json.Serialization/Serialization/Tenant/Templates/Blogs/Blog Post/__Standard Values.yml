@@ -4,6 +4,11 @@ Parent: "a6e84fd4-93e5-46d8-9876-64a64ae36e82"
 Template: "a6e84fd4-93e5-46d8-9876-64a64ae36e82"
 Path: /sitecore/templates/Feature/Blogs/Blog Post/__Standard Values
 DB: master
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
 Languages:
 - Language: en
   Versions:

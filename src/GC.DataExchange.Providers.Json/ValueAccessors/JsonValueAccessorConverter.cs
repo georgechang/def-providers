@@ -22,8 +22,9 @@ namespace GC.DataExchange.Providers.Json.ValueAccessors
             if (reader != null) return reader;
 
             var jsonPath = this.GetStringValue(source, "JSON Path");
+            var isItemName = this.GetBoolValue(source, "Is Item Name");
 
-            return string.IsNullOrEmpty(jsonPath) ? null : new JsonValueReader(jsonPath);
+            return string.IsNullOrEmpty(jsonPath) ? null : new JsonValueReader(jsonPath, isItemName);
         }
     }
 }

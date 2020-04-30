@@ -15,3 +15,7 @@ Languages:
     - ID: "7dd77547-d418-4830-b955-559e700113a1"
       Hint: JSON Path
       Value: $.title.rendered
+    - ID: "839d7a35-864d-47d6-8fa8-e43346678b51"
+      Hint: Is Item Name
+      Type: Checkbox
+      Value: 1

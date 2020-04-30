@@ -26,7 +26,9 @@ namespace GC.DataExchange.Providers.Json.Converters
                 this.NegativeResult(source, "This field requires a value.", "field: JSON Path");
             }
 
-            return this.PositiveResult(new JsonValueReader(jsonPath));
+            var isItemName = this.GetBoolValue(source, "Is Item Name");
+
+            return this.PositiveResult(new JsonValueReader(jsonPath, isItemName));
         }
     }
 }
