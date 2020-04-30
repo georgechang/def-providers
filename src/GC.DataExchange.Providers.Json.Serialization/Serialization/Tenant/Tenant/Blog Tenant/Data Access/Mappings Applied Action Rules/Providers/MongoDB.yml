@@ -1,0 +1,14 @@
+﻿---
+ID: "4d7024bb-851e-4367-bab2-ca03ef452b47"
+Parent: "73244e76-5fb1-4113-85c3-3a18ee9f34d3"
+Template: "67f41e70-4b99-4a6f-942f-3c0f2f579e13"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Mappings Applied Action Rules/Providers/MongoDB
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200308T173603Z

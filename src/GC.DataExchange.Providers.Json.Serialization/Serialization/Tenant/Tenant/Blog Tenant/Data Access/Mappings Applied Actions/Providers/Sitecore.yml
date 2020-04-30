@@ -1,0 +1,18 @@
+﻿---
+ID: "7be27aff-3afb-42f3-b9e6-0392af9c8c44"
+Parent: "5510dfad-5f3b-47bf-b2fd-c94956f1afed"
+Template: "1e97bfd7-76bd-464e-b7b1-e0a920465451"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Mappings Applied Actions/Providers/Sitecore
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200308T173644Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "93e766e1-3ee4-41d4-9da6-1cc8686ba915"
+Parent: "4a28a7e3-f6e3-4f22-8256-cea938f20efa"
+Template: "03cc46f3-8fe8-4602-b1c2-1c98da43ff18"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Apply Mapping Rules/Providers/Sitecore/Default Value Mapping Rule
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200308T173620Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

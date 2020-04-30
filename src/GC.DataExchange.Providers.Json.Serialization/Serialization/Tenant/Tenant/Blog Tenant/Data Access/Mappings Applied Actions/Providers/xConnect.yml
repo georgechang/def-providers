@@ -1,0 +1,18 @@
+﻿---
+ID: "edc206c4-da12-4251-8db1-309872565f6a"
+Parent: "5510dfad-5f3b-47bf-b2fd-c94956f1afed"
+Template: "ddb3262b-a274-4452-aa02-b28890568bf5"
+Path: /sitecore/system/Data Exchange/Blog Tenant/Data Access/Mappings Applied Actions/Providers/xConnect
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200308T173649Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
