@@ -1,5 +1,4 @@
-﻿using System.Web;
-using Sitecore.DataExchange.Attributes;
+﻿using Sitecore.DataExchange.Attributes;
 using Sitecore.DataExchange.Converters.PipelineSteps;
 using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Plugins;
@@ -8,6 +7,7 @@ using Sitecore.Services.Core.Model;
 
 namespace GC.DataExchange.Providers.Json.Pipelines
 {
+    // This converter is used with this specific template ID
     [SupportedIds(ReadPaginatedJsonApiStepTemplateId)]
     public class ReadPaginatedJsonApiStepConverter : BasePipelineStepConverter
     {
@@ -25,6 +25,7 @@ namespace GC.DataExchange.Providers.Json.Pipelines
 
             pipelineStep.AddPlugin(settings);
 
+            // convert the Sitecore item fields to a plugin object
             var pipelineSettings = new ReadPaginatedJsonApiStepSettings
             {
                 MaxCount = this.GetIntValue(source, "Max Count"),
@@ -34,6 +35,7 @@ namespace GC.DataExchange.Providers.Json.Pipelines
                 ResultsPerPage = this.GetIntValue(source, "Results Per Page")
             };
 
+            // add this plugin to the pipeline step
             pipelineStep.AddPlugin(pipelineSettings);
         }
     }

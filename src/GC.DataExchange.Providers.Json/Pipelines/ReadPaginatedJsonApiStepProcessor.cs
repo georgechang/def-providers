@@ -12,11 +12,14 @@ using Sitecore.DataExchange.Contexts;
 using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Plugins;
 using Sitecore.DataExchange.Processors.PipelineSteps;
+using Sitecore.Diagnostics;
 using Sitecore.Services.Core.Diagnostics;
 
 namespace GC.DataExchange.Providers.Json.Pipelines
 {
+    // this processor needs the JSON API endpoint configuration values
     [RequiredEndpointPlugins(typeof(JsonApiSettings))]
+    // this processor needs the processor step configuration values
     [RequiredPipelineStepPlugins((typeof(ReadPaginatedJsonApiStepSettings)))]
     public class ReadPaginatedJsonApiStepProcessor : BaseReadDataStepProcessor
     {
@@ -24,23 +27,13 @@ namespace GC.DataExchange.Providers.Json.Pipelines
 
         protected override void ReadData(Sitecore.DataExchange.Models.Endpoint endpoint, PipelineStep pipelineStep, PipelineContext pipelineContext, ILogger logger)
         {
-            if (endpoint == null)
-            {
-                throw new ArgumentNullException(nameof(endpoint));
-            }
-            if (pipelineStep == null)
-            {
-                throw new ArgumentNullException(nameof(pipelineStep));
-            }
-            if (pipelineContext == null)
-            {
-                throw new ArgumentNullException(nameof(pipelineContext));
-            }
-            if (logger == null)
-            {
-                throw new ArgumentNullException(nameof(logger));
-            }
+            // do some null checks
+            Assert.ArgumentNotNull(endpoint, nameof(endpoint));
+            Assert.ArgumentNotNull(pipelineStep, nameof(pipelineStep));
+            Assert.ArgumentNotNull(pipelineContext, nameof(pipelineContext));
+            Assert.ArgumentNotNull(logger, nameof(logger));
 
+            // get the configuration values for the endpoint
             var endpointSettings = endpoint.GetPlugin<JsonApiSettings>();
             if (endpointSettings == null) return;
 
@@ -49,11 +42,13 @@ namespace GC.DataExchange.Providers.Json.Pipelines
                 logger.Error($"No API URL is specified on the endpoint. (pipeline step: { pipelineStep.Name }, endpoint: { endpoint.Name }");
             }
 
+            // get the configuration values for the processor step
             var pipelineStepSettings = pipelineStep.GetPlugin<ReadPaginatedJsonApiStepSettings>();
             if (pipelineStepSettings == null) return;
 
             logger.Debug("Executing pipeline step: ", $"MaxCount: { pipelineStepSettings.MaxCount }", $"ResultsPerPage: { pipelineStepSettings.ResultsPerPage }", $"Page: { pipelineStepSettings.Page }", $"Offset: { pipelineStepSettings.Offset }");
 
+            // execute the API to retrieve the data
             var uri = new UriBuilder(endpointSettings.ApiUrl);
             var query = HttpUtility.ParseQueryString(uri.Query);
             query["per_page"] = pipelineStepSettings.ResultsPerPage.ToString();
@@ -75,6 +70,7 @@ namespace GC.DataExchange.Providers.Json.Pipelines
                 logger.Debug($"Retrieved { batch.Count } items.");
             }
 
+            // add this data as a plugin to the pipeline context
             var dataSettings = new IterableDataSettings(data);
             pipelineContext.AddPlugin(dataSettings);
         }
